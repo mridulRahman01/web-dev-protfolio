@@ -14,6 +14,9 @@
 .dark-2 {
   color: rgb(71, 71, 71);
 }
+.dark-3 {
+  color: rgb(117, 117, 117);
+}
 
 .btn-primary {
   border-radius: 5px;
@@ -41,10 +44,15 @@
 /* header */
 
 .heading {
-  background-image: url("../images/developer.png"),
-    url("../images/header_bg.png");
+  background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+}
+.heading {
+  background-image: url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-top: 40px;
 }
 
 /* Nav styles */
@@ -114,6 +122,9 @@ main section {
 .item-description {
   font-weight: 600;
 }
+.item-title {
+  color: rgb(117, 117, 117);
+}
 /* skill style */
 .skills-container {
   display: flex;
@@ -123,4 +134,43 @@ main section {
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
   border-radius: 5px;
   padding: 30px;
+}
+.skill-description {
+  color: rgb(117, 117, 117);
+}
+
+/* resume style */
+.resume hr {
+  margin: 30px 10px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 40px;
+}
+.resume-column-title,
+.experience-title {
+  color: rgb(71, 71, 71);
+}
+.resume-column-title {
+  font-size: 30px;
+}
+.experience-title {
+  font-size: 25px;
+}
+.experience-sub-title,
+.experience-description {
+  color: rgb(117, 117, 117);
+}
+.experience-description {
+  font-size: 16px;
+}
+.experience-sub-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* cv download button */
+.button-cv {
+  text-align: center;
+  margin-top: 50px;
 }
