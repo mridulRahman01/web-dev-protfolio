@@ -9,7 +9,7 @@
   background: rgb(255, 248, 243);
 }
 .text-primary {
-  color: rgb(253, 110, 10);
+  color: rgb(10, 253, 208);
 }
 .dark-2 {
   color: rgb(71, 71, 71);
@@ -20,7 +20,7 @@
 
 .btn-primary {
   border-radius: 5px;
-  background: rgb(253, 110, 10);
+  background: rgb(11, 244, 27);
   font-weight: 700;
   color: white;
   padding: 18px 35px;
